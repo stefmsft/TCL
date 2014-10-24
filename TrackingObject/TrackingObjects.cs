@@ -19,7 +19,6 @@ namespace TrackingObject
         private System.DateTime _Start = System.DateTime.Now;
         private System.DateTime _End = System.DateTime.Now;
 
-
         int _Count = 0;
         
         public TrackingCol()
