@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Lists version="5.12">
+	<Activities>
+		<Activity>Customer Meeting</Activity>
+		<Activity>Strategy Briefing</Activity>
+		<Activity>Architecture Design Session</Activity>
+		<Activity>Proof of Concept</Activity>
+		<Activity>RFI/RFP</Activity>
+		<Activity>Delivered Training</Activity>
+		<Activity>Customer Follow up</Activity>
+		<Activity>Marketing</Activity>
+		<Activity>Consulting</Activity>
+		<Activity>Partner</Activity>
+		<Activity>Administration</Activity>
+		<Activity>Training Delivery</Activity>
+		<Activity>Training</Activity>
+		<Activity>Internal Meeting</Activity>
+		<Activity>Management</Activity>
+		<Activity>Holiday</Activity>
+		<Activity>Travel</Activity>
+		<Activity>Ilness</Activity>
+    <Activity>Plateforme MTC</Activity>
+	</Activities>
+  <ATUs>
+    <ATU>Manuf Services</ATU>
+    <ATU>Manuf Corp</ATU>
+    <ATU>Communications</ATU>
+    <ATU>LRG</ATU>
+    <ATU>Retail</ATU>
+    <ATU>Gouv Dev</ATU>
+    <ATU>Finance</ATU>
+    <ATU>Public</ATU>
+    <ATU>Partner</ATU>
+  </ATUs>
+  <PARTNERs>
+    <PARTNER>Through Partner</PARTNER>
+  </PARTNERs>
+  <MTCs>
+    <MTC>MTC Engagement</MTC>
+  </MTCs>
+</Lists>

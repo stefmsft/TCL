@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Lists version="2.7">
+  <Products>
+    <Product>Active Directory</Product>
+    <Product>Active Directory Application Mode</Product>
+    <Product>Active Directory Federation Services</Product>
+    <Product>Antigen</Product>
+    <Product>Security Products</Product>
+    <Product>ISA</Product>
+    <Product>Microsoft Certificate Lifecycle Management</Product>
+    <Product>Microsoft Identity Integration Server</Product>
+    <Product>Microsoft Rights Management Services</Product>
+    <Product>Microsoft Client Protection</Product>
+    <Product>Storage</Product>
+    <Product>Windows Server</Product>
+    <Product>Windows DataCenter</Product>
+    <Product>Windows Terminal Services</Product>
+    <Product>BizTalk Server</Product>
+    <Product>Commerce Server</Product>
+    <Product>Host Integration Server</Product>
+    <Product>SQL Server BI</Product>
+    <Product>SQL Server RDBMS</Product>
+    <Product>SQL Server Mobile</Product>
+    <Product>Visual Studio</Product>
+    <Product>Vista</Product>
+    <Product>Virtual Server</Product>
+    <Product>SFU/SUA</Product>
+    <Product>HPC</Product>
+    <Product>OBA</Product>
+    <Product>Other Products</Product>
+  </Products>
+</Lists>

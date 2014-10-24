@@ -1,0 +1,64 @@
+﻿<PowerGadgets.File>
+  <Guid>107b5326-c291-40ac-b7a4-d5fac82d8f1a</Guid>
+  <Items>
+    <PowerGadgets.Chart HasData="true">
+      <TEMPLATEMASK>DataBind, Template, TitlesText</TEMPLATEMASK>
+      <PANES>
+        <ITEM index="0">
+          <AXES>
+            <ITEM index="0">
+              <STYLE>Notify, Default</STYLE>
+              <NOTIFY>True</NOTIFY>
+            </ITEM>
+            <ITEM index="1">
+              <STYLE>Notify, Default</STYLE>
+              <NOTIFY>True</NOTIFY>
+            </ITEM>
+          </AXES>
+        </ITEM>
+      </PANES>
+      <AXESX>
+        <ITEM index="0">
+          <MAXSIZEPERCENTAGE>20</MAXSIZEPERCENTAGE>
+          <LABELTRIMMING>EllipsisWord</LABELTRIMMING>
+        </ITEM>
+      </AXESX>
+      <ALLSERIES>
+        <GALLERYARRAY type="ChartFX.WinForms.Internal.IGalleryType[]">
+          <ITEM index="0" type="ChartFX.WinForms.Galleries.Line" />
+          <ITEM index="1" type="ChartFX.WinForms.Galleries.Bar" />
+          <ITEM index="4" type="ChartFX.WinForms.Galleries.Pie">
+            <SHADOWS>True</SHADOWS>
+          </ITEM>
+        </GALLERYARRAY>
+        <GALLERY>Bar</GALLERY>
+      </ALLSERIES>
+      <SERIES>
+        <ITEM index="0">
+          <TEXT>Value</TEXT>
+        </ITEM>
+      </SERIES>
+      <DATAGRID>
+        <VISIBLE>True</VISIBLE>
+      </DATAGRID>
+      <BORDER type="ChartFX.WinForms.Adornments.SimpleBorder" assembly="ChartFX.WinForms.Adornments" />
+      <BACKGROUND type="ChartFX.WinForms.Adornments.GradientBackground" assembly="ChartFX.WinForms.Adornments">
+        <COLORS type="ChartFX.WinForms.Adornments.GradientBackground+ColorCollection" assembly="ChartFX.WinForms.Adornments" />
+      </BACKGROUND>
+      <Window>
+        <GadgetVersion>1</GadgetVersion>
+        <RefreshInterval>60000</RefreshInterval>
+        <Data>PowerGadgets.Commands.PowershellSource</Data>
+        <Data.PrevCommands>[reflection.assembly]::LoadWithPartialName("TrackingObject") &gt; $null
+$TC = new-object TrackingObject.TrackingCol
+$Today =  [DateTime]::now
+$TC.End=$Today.ToShortDateString()
+$TC.Start=$Today.AddMonths(-1).ToShortDateString()
+$TC.Extract() &gt; $null
+$TC.Categories.values | ForEach-Object  {$_.Cumul.values }
+</Data.PrevCommands>
+      </Window>
+    </PowerGadgets.Chart>
+  </Items>
+  <Hints Transparent="False" />
+</PowerGadgets.File>
