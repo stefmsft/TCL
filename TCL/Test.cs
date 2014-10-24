@@ -27,7 +27,7 @@ namespace TCL
                             if (TO.Subject.StartsWith("STU") != true)
                             {
                                 TO.Subject = "STUB- " + TO.Subject;
-//                                TO.Update();
+                                TO.Update();
                                 Console.WriteLine("Trigger Update new subjet :" + TO.Subject);
                             }
                         }
