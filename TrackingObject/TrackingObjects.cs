@@ -225,10 +225,13 @@ namespace TrackingObject
                 _Start = AObj.Start;
                 _End = AObj.End;
                 _Subject = AObj.Subject;
-                string[] _cats = AObj.Categories.Split(';');
-                foreach (string c in _cats)
+                if (AObj.Subject != null)
                 {
-                    _Categories.Add(c.Trim());
+                    string[] _cats = AObj.Categories.Split(';');
+                    foreach (string c in _cats)
+                    {
+                        _Categories.Add(c.Trim());
+                    }
                 }
                 _RObj = AObj;
             }
