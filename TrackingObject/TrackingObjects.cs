@@ -225,7 +225,7 @@ namespace TrackingObject
                 _Start = AObj.Start;
                 _End = AObj.End;
                 _Subject = AObj.Subject;
-                if (AObj.Subject != null)
+                if (AObj.Categories != null)
                 {
                     string[] _cats = AObj.Categories.Split(';');
                     foreach (string c in _cats)
